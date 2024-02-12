@@ -1,0 +1,64 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.wrapper button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.accordian {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    width: 400px;
+    margin: 4px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn-on {
+    background-color: #CDFADB;
+}
+
+.btn-on:hover {
+    background-color: #BFD8AF;
+}
+
+.btn-off {
+    background-color: #FFB0B0;
+}
+
+.btn-off:hover {
+    background-color: #FF8080;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.title, .content {
+    padding: 8px;
+    margin: 4px 8px;
+}
+
+.icon {
+    margin: 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .accordian {
+        width: 300px;
+    }
+} 
